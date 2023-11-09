@@ -570,7 +570,7 @@ progress {
 }
 
 .list-inline-item {
-  display: inline-block;
+  display: block;
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -10971,14 +10971,12 @@ section.resume-section .resume-section-content {
   }
 }
 
-#tooltip_fab_fa-python, #tooltip_fab_fa-github{
-  display: none;
+#legend{
+  display: inline-block;
   position: relative;
   padding-left: 20px;
   background-color: white;
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-#fab_fa-python:hover #tooltip_fab_fa-python{
-  display: inline-block;
-}
+.gsheets{}
