@@ -11027,10 +11027,14 @@ section.resume-section .resume-section-content {
   bottom: 10px;
 }
 
+.list-inline-item:hover{
+  padding-left: 20px;
+  font-weight: 400;
+  color: #3ca3ff;
+  cursor: default;
+}
+
 #mb-0{
   margin-bottom: 30px !important;
 }
 
-.list-inline-item:hover{
-  padding-left: 20px;
-}
