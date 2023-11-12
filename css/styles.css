@@ -571,6 +571,8 @@ progress {
 
 .list-inline-item {
   display: block;
+  position: relative;
+  transition: all 500ms;
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -10932,6 +10934,7 @@ p.lead {
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  transition: all 300ms;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
@@ -11019,8 +11022,15 @@ section.resume-section .resume-section-content {
   display: inline-block;
   position: relative;
   padding-left: 20px;
-  background-color: white;
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: auto;
   bottom: 10px;
+}
+
+#mb-0{
+  margin-bottom: 30px !important;
+}
+
+.list-inline-item:hover{
+  padding-left: 20px;
 }
